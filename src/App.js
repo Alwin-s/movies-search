@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Row from './Components/Row';
+import Search from './Search';
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import requests from "./Components/request"
+import Footer from "../src/Components/Footer"
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+  <Search isPoster={true}  fetchUrl={requests.fetchNetflixOriginals}/>
+ {/* <Row isPoster={true}  fetchUrl={requests.fetchTrending} /> */}
+ <Footer/>
     </div>
   );
 }

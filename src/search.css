@@ -1,0 +1,88 @@
+
+.hed{
+    width: 40px;
+    cursor: pointer;
+}
+.bg{
+    background-color: rgba(0, 0, 0, 0.715);
+  
+}
+.as{
+    color: aliceblue;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 6%;
+  font-family: 'Times New Roman', Times, serif;
+}
+.ass{
+    background-color: transparent;
+    width: 50px;
+    filter: invert(100%);
+    height: 46px;
+    cursor: pointer;
+}
+.s{
+    background-color:transparent;
+    border: 1.5px solid white;
+    border-radius: 30px;
+    outline: none;
+    padding-left: 20px;
+    color: aliceblue;
+    font-size: larger;
+    font-weight:bold ;
+    font-size: large;
+    width: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.btnm{
+    background-color: rgb(255, 85, 0);
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 2px;
+    width: 100px;
+    color: white;
+font-weight: bold;
+
+}
+
+
+.cardf{
+  padding: 30px;
+ height: 380px;
+}
+.cv{
+    line-height: 18px;
+
+}
+.cv span{
+    padding-left: 20px;
+
+}
+.banner{
+    width: 100%;
+    position: absolute;
+    height: 630px;
+  
+}
+.ll{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+
+.movies{
+    
+    object-fit: cover;
+    transition: 150ms ease-in-out;
+}
+.movies:hover{
+    transform: scale(1.09);
+    cursor: pointer;
+}
+.navas p{
+    color: white;
+    cursor: pointer;
+}
+
